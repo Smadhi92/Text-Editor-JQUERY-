@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Text Editor JQ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    
+    
+   
+</head>
+<body>
+    
+    <div class="container">
+    <div class="content">
+    <div class="btn">
+    <button id="bold"> Bold </button>
+    <button id="italic"> Italic </button> 
+    <button id="underline"> Underlined </button>
+        </div>
+                
+    <select id="Font">
+        <option value="TimeNewRoman" id="Times"> Times New Roman </option>
+        <option value="Calibri" id="Calib"> Calibri </option>
+        <option value="Cambria" id="Camb"> Cambria </option>
+        <option value="Arial" id="Aria"> Arial </option>
+        <option value="Verdana" id="Verd"> Verdana </option>
+    </select>
+                
+        <select id="Size" onchange="ChangeSize()">
+            <option value="10"> 10 </option>
+            <option value="12"> 12 </option>
+            <option value="14"> 14 </option>
+            <option value="16"> 16 </option>
+            <option value="18"> 18 </option>
+            <option value="20"> 20 </option>
+            <option value="24"> 24 </option>
+            <option value="28"> 28 </option>
+            <option value="32"> 32 </option>
+        </select>
+            
+        </div>
+                <br>
+            
+            <textarea rows="10" cols="50" id="txt"></textarea>
+        </div>
+            <div class="copyright">
+                    &copy; Mohamed Smadhi </div>
+                    <script src="js/main.js"></script>   
+                    
+    </body>
+</html>
